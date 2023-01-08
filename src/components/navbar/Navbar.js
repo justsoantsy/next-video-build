@@ -24,7 +24,7 @@ const Navbar = () => {
                         <a href="https://twitter.com/metadragverse/">Twitter</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/">Prototypes</a>
+                        <a href="https://social.reinasalti.xyz/next-video-build/">Prototypes</a>
                     </li>
                     <li className="nav-item">
                         <a className='btn' href="https://social.reinasalti.xyz/dragverse/">VISIT DRAGVERSE</a>
