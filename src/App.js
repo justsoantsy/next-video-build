@@ -14,7 +14,7 @@ function App() {
       <LivepeerConfig client={client}>
       <Player
       title="Next Video Build"
-      playbackId="6c410ysidtuajn2cf"
+      playbackId="c410ysidtuajn2cf"
       showPipButton
       objectFit="cover"
     />
