@@ -50,6 +50,7 @@
         width: 100%;
         height: 100vh;
         transition: 0.3s;
+        background-color:  #130e23
     }
 
     .nav.active {
