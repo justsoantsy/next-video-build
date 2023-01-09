@@ -1,0 +1,72 @@
+.hero {
+    height: auto;
+    width: 70%;
+    object-fit: contain;
+}
+
+.intro {
+    width: 100%;
+    display:fixed;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-content: center;
+}
+
+.title {
+    width: 50%;
+    height: auto;
+    font-size: 120px;
+    text-align: center;
+    align-content: center;
+    font-weight: 900;
+} 
+
+.subtitle {
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+} 
+
+.connect {
+    width: 100%;
+    display:fixed;
+    padding-top: 100px;
+    padding-left: 650px;
+    padding-right: 100px;
+    align-content: center;
+}
+
+.button {
+    padding: 10px 28px;
+    font-size: 1.2rem;
+    background-image: linear-gradient(45deg, var(--primary-midnight) 0%, var(--primary-pink) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Syne', sans-serif; 
+    display:flex;
+}
+
+@media screen and (max-width: 940px) {
+    .videoplayer {
+        width: 60vh;
+        padding-top: 3em;
+        padding-left: 3em;
+        height: 50%;
+        background-color: transparent;
+    }
+
+  }
+  @media screen and (max-width: 495px) {
+    .videoplayer {
+        width: 60vh;
+        padding-top: 3em;
+        padding-left: 2em;
+        height: 50%;
+        background-color: transparent;
+    }
+  }

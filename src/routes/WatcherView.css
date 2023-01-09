@@ -1,0 +1,96 @@
+.hero {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    align-content: center;
+}
+
+
+.herogrids {
+    display: grid;
+    grid-auto-columns: minmax(1rem, auto);
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.herogrids .leftgrid {
+    border-radius: 25px;
+    background: #231a41;;
+    border: 1px solid #815BFF;
+    color: #a579cc;
+    padding: 2rem;
+    max-height: 610px;
+}
+
+.userinformation {
+    display: grid;
+    grid-auto-columns: minmax(1rem, auto);
+    grid-template-columns: 5% 20% 75%;
+    grid-gap: 1rem;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.videoplayer {
+    width: 130vh;
+    height: 82%;
+    padding-bottom: 25px;
+    background-color: transparent;
+}
+
+
+.stream {   
+    height:60px;
+    width: 90%;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.user {
+    height:40px;
+    width: 50%;
+    display: grid;
+    grid-auto-columns: minmax(1rem, auto);
+    grid-template-columns: 15px 10px;
+    max-width: 16rem;
+    grid-gap: 1rem;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.verified {
+    color: #815BFF;
+}
+
+.avatar {
+    height: 95%;
+    width: 200%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .videoplayer {
+        width: 60vh;
+        padding-top: 3em;
+        padding-left: 3em;
+        height: 50%;
+        background-color: transparent;
+    }
+
+  }
+  @media screen and (max-width: 495px) {
+    .videoplayer {
+        width: 60vh;
+        padding-top: 3em;
+        padding-left: 2em;
+        height: 50%;
+        background-color: transparent;
+    }
+  }

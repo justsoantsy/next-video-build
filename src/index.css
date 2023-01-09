@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
 
 *{
@@ -53,8 +40,27 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #E748E6;
+  padding-bottom: 0.3em;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+p {
+  color: #fff
+}
+
+
 h2 {
   font-size: 3rem;
+}
+
+h3 {
+  color: #E748E6;
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .btn {
