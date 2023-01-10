@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar';
 import './Home.css'
-import { Link } from 'react-router-dom'
+import Footer from '../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -9,15 +9,17 @@ const Home = () => {
         <Navbar />
 
         <div className='hero'>
-            <div className="intro">
-                <p className='title'> DRAGVERSE</p>
-                <p className='subtitle'> IS THIS WORKING?</p>
+            <div className="title">
+                <p> DRAGVERSE</p>
+            </div>
+            < div className='subtitle'>    
+                <p> Decentralized Drag Network </p>
             </div>
             <div className= 'connect'>
-            <Link to='/watcher' ><button className='button' >Login wirth Lens</button></Link>
+            <button  className='button'> Connect with Lens </button>
             </div>
         </div>
-
+        <Footer />
     </div>
     
   )

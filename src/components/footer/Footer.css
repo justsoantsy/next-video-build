@@ -1,0 +1,36 @@
+.footerlinks {
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .footerlinks h5 {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+    color: #e748e6;
+    padding: 3%;
+    margin: 0;
+  }
+  
+ .footerlinks li {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 28px;
+    list-style: none;
+    display: grid;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 0.9rem;
+    color: #cdbdff;
+  }
+ .footerlinks li:nth-child(7){
+    padding: 0;
+  }

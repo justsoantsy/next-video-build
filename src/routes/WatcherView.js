@@ -4,6 +4,8 @@ import {   LivepeerConfig, createReactClient, studioProvider, Player } from '@li
 import './WatcherView.css'
 import {HiBadgeCheck} from 'react-icons/hi'
 import pfp from '../assets/saltiuseravatar.png'
+import Footer from '../components/footer/Footer';
+
 
 
 const client = createReactClient({
@@ -70,9 +72,8 @@ function WatcherView() {
             <div className='leftgrid'>
              <h3> JOIN THE CONVERSATION </h3>
             </div>
-
         </div>
-
+        <Footer />
     </div>
     
   )

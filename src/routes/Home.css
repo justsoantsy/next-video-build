@@ -1,11 +1,15 @@
 .hero {
-    height: auto;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
+    align-content: center;
+    display: fixed
+;
 }
 
 .intro {
-    width: 100%;
+    width: 50%;
+    height: 900px;
     display:fixed;
     padding-top: 100px;
     padding-left: 100px;
@@ -14,12 +18,13 @@
 }
 
 .title {
-    width: 50%;
+    width: 100%;
     height: auto;
     font-size: 120px;
     text-align: center;
-    align-content: center;
     font-weight: 900;
+    padding-bottom: 100px;
+    padding-top: 100px;
 } 
 
 .subtitle {
@@ -27,16 +32,17 @@
     height: auto;
     font-size: 50px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 } 
 
 .connect {
     width: 100%;
-    display:fixed;
-    padding-top: 100px;
-    padding-left: 650px;
-    padding-right: 100px;
-    align-content: center;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 90px;
+    padding-bottom: 50px;
 }
 
 .button {
@@ -46,9 +52,8 @@
     color: #fff;
     border: none;
     border-radius: 50px;
-    cursor: pointer;
     font-family: 'Syne', sans-serif; 
-    display:flex;
+    display:fixed;
 }
 
 @media screen and (max-width: 940px) {
