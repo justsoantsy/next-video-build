@@ -13,6 +13,7 @@ export const Footer = () => {
             <li><a href="https://github.com/justsoantsy/next-video-build">Git</a></li>
             <li><a href="https://twitter.com/metadragverse/">Twitter</a></li>
             <li><a href="https://social.reinasalti.xyz/next-video-build/">Prototypes</a></li>
+            <li><a href="/create-avatar">Create Drag Skin</a></li>
             <li><a href="https://social.reinasalti.xyz/dragverse/">Visit Dragverse</a></li>
 </div>
 

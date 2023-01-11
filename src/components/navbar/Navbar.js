@@ -20,16 +20,13 @@ const Navbar = () => {
                         <a href="/feed">Lens Feed</a>
                     </li>
                     <li className="nav-item">
+                        <a href="/create-avatar">Create Drag Skin</a>
+                    </li>
+                    <li className="nav-item">
                         <a href="https://www.figma.com/proto/yvGJs02e7EpemqoXtPpJNA/Dragverse-V3?node-id=108%3A958&scaling=scale-down&page-id=108%3A570&starting-point-node-id=108%3A958/">About Us</a>
                     </li>
                     <li className="nav-item">
-                        <a href="https://dragverse.io/">Website</a>
-                    </li>
-                    <li className="nav-item">
                         <a href="https://github.com/justsoantsy/next-video-build">Git</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="https://twitter.com/metadragverse/">Twitter</a>
                     </li>
                     <li className="nav-item">
                         <a href="https://social.reinasalti.xyz/next-video-build/">Prototypes</a>

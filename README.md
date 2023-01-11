@@ -12,6 +12,9 @@ We did more research into how our audience is using live streaming. We gathered 
 We learned how to create a React App.
 We connected Livepeer Client and Player.
 We live-streamed using OBS.
+We created the base for the Lense feed.
+We installed the XMTP SDK.
+We installed Ready Player Me SDK for avatar. 
 
 # Deliveries
 Live: https://creative-dodol-cfede7.netlify.app/
