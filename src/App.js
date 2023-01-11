@@ -1,7 +1,6 @@
 import './index.css'
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
-
 import Home from './routes/Home';
 import WatcherView from './routes/WatcherView';
 import Feed from './routes/Feed';
