@@ -1,8 +1,9 @@
+import './Avatar.css'
 import React from 'react'
 import Iframe from 'react-iframe'
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
-import './Home.css'
+
 
 export const Avatar = () => {
   return (
