@@ -11,7 +11,7 @@ export const Avatar = () => {
                         <Navbar />
                         <Iframe url="https://dragverse.readyplayer.me/avatar?frameApi="
                         width="100%"
-                        height="1020px"
+                        height="820px"
                         id=""
                         className="avatar-builder"
                         display="block"
