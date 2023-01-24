@@ -7,19 +7,19 @@ Vansh - Project Manager and Co-Founder
 
 ## Our achievements during Next Video Build
 As new programmers and builders, we are so hyped that we accomplish a lot with the community:
-We started with what we were comfortable with: UX/UI and what we wanted to accomplish. Including Livestreaming with Livepeer and XMPT Chat
+We started with what we were comfortable with: UX/UI and what we wanted to accomplish. Including Livestreaming with Livepeer and XMPT Chat, Home Feed, and Login Page. 
 We did more research into how our audience is using live streaming. We gathered data about use cases and how the community consumed content and identified the must-have features.
 We learned how to create a React App.
 We connected Livepeer Client and Player.
 We live-streamed using OBS.
-We created the base for the Lense feed.
-We installed the XMTP SDK.
-We installed Ready Player Me SDK for avatar. 
+We connected ReadyPlayerMe Avatar Builder.
 
 # Deliveries
-Live: https://creative-dodol-cfede7.netlify.app/
 GitHub: https://github.com/justsoantsy/next-video-build
 Prototype: https://social.reinasalti.xyz/next-video-build
+Delivery on Vercel: https://next-video-build.vercel.app/watcher
+Home Feed UI deployment: https://next-video-eta.vercel.app/Feed/Feed
+Presentation:  https://social.reinasalti.xyz/nvb-presentation
 
 ## Let's connect: 
 ### dragverse.io
